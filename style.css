@@ -165,3 +165,100 @@ body{
    
     display: flex;
 }
+@media screen and (min-width:1440px) /*desktop*/
+{
+    h1{
+        font-size: 4rem;
+    }
+    .game-section{
+        width:45rem;
+        height:45vh;
+    }
+    .game-grid{
+        width:70%;
+        height: 70%;
+    }
+    .restart{
+        width:400px;
+        height: 5rem;
+        font-size: 3rem;
+        box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+    }
+    .restart:hover{
+        font-size: 2.8rem;
+        box-shadow: 5px 5px 10px var(--bg-color),
+        -5px -5px 10px var(--bg-color);
+    }
+   
+    .card{
+        width:20rem;
+        font-size: 3rem;
+    }
+    .items .text{
+        font-size:5.5rem;
+    }
+    .winner{
+        >h{
+            font-size:4rem;
+        }
+        >p{
+            font-size: 3.6rem;
+        }
+    }
+    
+}
+@media screen and (max-width:600px) 
+{
+    .card{
+        width:180px;
+    }
+    .game-section{
+
+        width:21rem;
+        height:45vh;
+    }
+    .game-grid{
+        width:14rem;
+        height:14rem;
+    }
+    .items{
+        font-size: 3rem;
+    }
+    .restart{
+        width:150px;
+        font-size:2rem;
+    }
+    .restart:hover{
+        font-size: 1.8rem;
+    }
+    
+}
+@media screen and (max-width:400px) 
+{
+    .card{
+        width:150px;
+    }
+    .game-section{
+
+        width:22rem;
+        height:45vh;
+    }
+}
+@media screen and (max-width:300px) 
+{
+    .choice-box{
+        gap:20px;
+    }
+    .card{
+        width:120px;
+    }
+    .game-section{
+
+        width:16rem;
+        height:45vh;
+    }
+    .game-grid{
+        width:220px;
+        height: 220px;
+    }
+}
