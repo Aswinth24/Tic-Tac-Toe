@@ -165,7 +165,7 @@ body{
    
     display: flex;
 }
-@media screen and (min-width:1440px) /*desktop*/
+@media screen and (min-width:1800px) /*desktop*/
 {
     h1{
         font-size: 4rem;
