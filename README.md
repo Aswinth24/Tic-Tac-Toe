@@ -1,6 +1,10 @@
+<div align="center">
+  
 # Tic-Tac-Toe
+  **Tic-Tac Toe is a three by three Grid game played by Two Player,who alternatively take place the marks on X and O.**
+</div>
 
-**Tic-Tac Toe is a three by three Grid by Two Player,who alternatively take place the marks on X and O.**
+
 
 # Description
 
